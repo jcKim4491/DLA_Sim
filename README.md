@@ -23,5 +23,6 @@ dla_driver.h
   7. dian_nbout.h       : buffer for output feature map. size 16(width)*64(entry). circular buffer.
   
   a. NBOutSaveOp.h      : Opcode struct for writing back from NBOut.
+  
   b. optionparser.h     : Verbose flags for debugging.
   
