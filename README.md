@@ -6,14 +6,14 @@ dla_driver.h
 -> dla_system.h
 -> diannao_system.h : DianNao Architecture & Control Unit as well.
 
-<BaseCode>
+\<BaseCode\>
   1. timingObject.h     : basic class for timing modules.
   2. add_module.h       : adder.
   3. mult_module.h      : multiplier.
   4. register_module.h  : register.
   5. act_module.h       : activation function applier. (eg. ReLu, tanh, sigmoid.)
 
-<DianNao>
+\<DianNao\>
   1. memory_interface.h : 4MB Cache and 3 DMAs for NBIn, SB, and NBOut.
   2. dian_nbin.h        : buffer for input feature map. size 16(width)*64(entry). circular buffer.
   3. dian_sb.h          : buffer for kernel weights. size 256(width)*64(entry). circular buffer.
