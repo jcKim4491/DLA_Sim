@@ -1,6 +1,6 @@
 # DLA_Sim
 Deep Learning Accelerator Simulation
-(Only for Convolutional Layer)
+(Only for Convolution Layer)
 
 dla_driver.h
 -> dla_system.h
